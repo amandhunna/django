@@ -1,0 +1,4 @@
+- install pythonn3 and pip3
+- sudo pip3 install django
+- python3 -m django --version
+- django-admin startproject mysite
