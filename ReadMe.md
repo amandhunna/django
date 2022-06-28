@@ -3,7 +3,7 @@
 - ```sudo pip3 install django```
 - ```python3 -m django --version```
 - ```django-admin startproject mysite``` 
-- move to mysite: ```python3 manage.py runserver```
+- start: ```python3 manage.py runserver```
 - create module/app: ```python3 manage.py startapp folderName```
 - - create urls.py in folderName
 

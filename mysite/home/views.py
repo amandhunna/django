@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from datetime import datetime
 from home.models import Contact
 
-def index(request):
+def home(request):
     context = {
         "var1": "aman" # key value should be string
     }
@@ -14,7 +14,7 @@ def index(request):
         last_name = request.POST.get('lname')
         contact = Contact(first_name=first_name,last_name=last_name, date=datetime.today())
         contact.save()
-    return render(request, "index.html", context)
+    return render(request, "home.html", context)
 
 def about(request):
     return HttpResponse("This is about page.")
