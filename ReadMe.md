@@ -15,3 +15,6 @@
 - ```python3 manage.py createsuperuser``` admin/admin
 
 ## template inheritance
+
+## model
+- after creating model run : ```python3 manage.py makemigrations``` and ```python manage.py migrate```
