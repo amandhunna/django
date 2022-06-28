@@ -1,3 +1,4 @@
+## Setup
 - install pythonn3 and pip3
 - ```sudo pip3 install django```
 - ```python3 -m django --version```
@@ -7,3 +8,8 @@
 - - create urls.py in folderName
 
 - to list all CLI ```python3 manage.py```
+
+## admin
+- ```python3 manage.py makemigrations```
+- ```python3 manage.py migrate```
+- ```python3 manage.py createsuperuser``` admin/admin
