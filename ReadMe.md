@@ -18,3 +18,8 @@
 
 ## model
 - after creating model run : ```python3 manage.py makemigrations``` and ```python manage.py migrate```
+
+## django-rest Setup
+- `pip3 install djangorestframework`
+- `pip3 install markdown`
+- `pip3 install django-filter`
